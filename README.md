@@ -121,7 +121,7 @@ Late deliveries were associated with substantially lower customer review scores.
 
 | File | Description |
 |---|---|
-| `olist_ecommerce_sql_analysis_organised.sql` | SQL queries used for the analysis |
+| `olist_ecommerce_sql_analysis_project.sql` | SQL queries used for the analysis |
 | `docs/olist_ecommerce_key_findings.md` | Detailed documentation of findings, business insights, methodology, and limitations |
 
 ## Key Findings Documentation
