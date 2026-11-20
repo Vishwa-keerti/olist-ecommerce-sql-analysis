@@ -147,4 +147,4 @@ This project demonstrates the application of PostgreSQL to real-world e-commerce
 
 **Vishwa Keerti**
 
-- GitHub: [Your GitHub Profile](https://github.com/Vishwa-keerti)
+- GitHub: [My GitHub Profile](https://github.com/Vishwa-keerti)
