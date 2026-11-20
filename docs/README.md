@@ -1,1 +1,1 @@
-this contains doc files
+ Project documentation files.
