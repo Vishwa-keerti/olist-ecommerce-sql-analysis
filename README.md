@@ -142,3 +142,9 @@ The raw dataset is not included in this repository.
 ## Conclusion
 
 This project demonstrates the application of PostgreSQL to real-world e-commerce data analysis. By combining customer, order, product, seller, payment, delivery, and review data, the analysis identifies important business patterns and potential areas for improvement in customer retention, sales performance, and delivery operations.
+
+## Author
+
+**Vishwa Keerti**
+
+- GitHub: [Your GitHub Profile](https://github.com/Vishwa-keerti)
