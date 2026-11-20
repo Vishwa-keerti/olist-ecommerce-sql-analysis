@@ -8,12 +8,12 @@ The objective was to use SQL to transform raw e-commerce data into meaningful bu
 
 ## Dataset
 
-- **Source:** [Brazilian E-Commerce Public Dataset by Olist – Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- **Source:** [Brazilian E-Commerce Public Dataset – Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Total Orders:** 99,441
 - **Unique Customers:** 96,096
 - **Product Revenue:** R$13,591,643.70
 
-The dataset contains multiple relational tables, including customers, orders, order items, payments, reviews, products, sellers, and geolocation data.
+The dataset contains relational tables covering customers, orders, order items, payments, reviews, products, sellers, and geolocation.
 
 ## Tools & Technologies
 
@@ -62,7 +62,7 @@ The dataset contains multiple relational tables, including customers, orders, or
 - Delivery time and review score relationship
 
 ### 6. Advanced SQL Analysis
-- Customer segmentation through purchase behaviour
+- Customer purchasing behaviour
 - Ranking using `DENSE_RANK()`
 - Month-over-month revenue growth using `LAG()`
 - Revenue and order comparisons using CTEs and window functions
@@ -89,7 +89,7 @@ The dataset contains multiple relational tables, including customers, orders, or
 ### Customer Behaviour
 - Only 3.11% of unique customers placed more than one order.
 - Repeat customers had a lower average order value per order (R$123.90) than one-time customers (R$138.60).
-- However, repeat customers generated higher reported revenue per customer (R$259.86 vs. R$137.63).
+- Repeat customers generated higher reported revenue per customer (R$259.86 vs. R$137.63).
 
 ### Product Category Performance
 
@@ -121,22 +121,14 @@ Late deliveries were associated with substantially lower customer review scores.
 
 | File | Description |
 |---|---|
-| `olist_ecommerce_sql_analysis_project.sql` | SQL queries used for the analysis |
-| `docs/olist_ecommerce_key_findings.md` | Detailed documentation of findings, business insights, methodology, and limitations |
-
-## Key Findings Documentation
-
-For a detailed explanation of the results and business implications, see:
-
-[Read Key Findings & Business Insights](docs/olist_ecommerce_key_findings.md)
+| [SQL Analysis](olist_ecommerce_sql_analysis_project.sql) | Complete organised SQL queries |
+| [Key Findings](docs/olist_ecommerce_key_findings.md) | Detailed findings, business insights, methodology, and limitations |
 
 ## Dataset Access
 
-The original dataset can be downloaded from:
+[Download the original Olist dataset from Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-[Olist Brazilian E-Commerce Dataset – Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
-The dataset is not included in this repository.
+The raw dataset is not included in this repository.
 
 ## Methodology & Limitations
 
